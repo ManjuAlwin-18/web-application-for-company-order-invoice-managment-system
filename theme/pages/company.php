@@ -25,7 +25,7 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-title">
-                                    <h4>Basic Elements</h4>
+                                    <h4>Company</h4>
                                     
                                 </div>
                                 <div class="card-body">
@@ -35,7 +35,7 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>Company Name</label>
-                                                        <input type="text" class="form-control" placeholder="Please Enter Company Name ">
+                                                        <input type="text" class="form-control" id="txt_company_name" placeholder="Please Enter Company Name ">
                                                     </div>
                                                     
 
@@ -43,7 +43,7 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>Phone Number</label>
-                                                        <input type="text" class="form-control" placeholder="Please Enter Phone Number ">
+                                                        <input type="text" class="form-control" id="txt_phone_number" placeholder="Please Enter Phone Number ">
                                                     </div>
                                                 </div>
                                             </div>
@@ -52,7 +52,7 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>Email ID</label>
-                                                        <input type="text" class="form-control" placeholder="Please Enter Email ID ">
+                                                        <input type="text" class="form-control" id="txt_email_id" placeholder="Please Enter Email ID ">
                                                     </div>
                                                     
 
@@ -60,7 +60,7 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>Address</label>
-                                                        <textarea class="form-control" rows="3" placeholder="Please Enter Your Address"></textarea>
+                                                        <textarea class="form-control" rows="3" id="txt_address" placeholder="Please Enter Your Address"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
@@ -69,7 +69,7 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>Fax</label>
-                                                        <input type="text" class="form-control" placeholder="Please Enter Fax ">
+                                                        <input type="text" class="form-control" id="txt_fax" placeholder="Please Enter Fax ">
                                                     </div>
                                                     
 
@@ -77,16 +77,16 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
                                                         <label>VAT</label>
-                                                        <input type="text" class="form-control" placeholder="Please Enter VAT ">
+                                                        <input type="text" class="form-control" id="txt_vat" placeholder="Please Enter VAT ">
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-lg-6">
-                                                <div class="form-group">
+                                                    <div class="form-group">
                                                         <label>Country</label>
-                                                        <select class="form-control">
+                                                        <select class="form-control" id="sel_country">
                                                             <option>Please Select Country</option>
 															<option>New Zealand</option>
 															<option>India</option>
@@ -108,32 +108,13 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                 <div class="form-group">
-                                                        <label>State</label>
-                                                        <select class="form-control">
-                                                            <option>Please Select State</option>
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
-														</select>
+                                                        <label style="height:18px;"></label><br>
+                                                        <button type="button" style="width:200px;" id="btn_company_submit" class="btn btn-success m-b-10 m-l-5">Submit</button>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="row">
-                                                <div class="col-lg-6">
-                                                   
-                                                    
-
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                    <label style="height:18px;"></label><br>
-                                                        <button type="button" style="width:200px;" class="btn btn-success m-b-10 m-l-5">Submit</button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                         
 
                                         </form>
                                     </div>
@@ -663,6 +644,8 @@
     <!-- jquery vendor -->
     <script src="../js/lib/jquery.min.js"></script>
     <script src="../js/lib/jquery.nanoscroller.min.js"></script>
+    <script src="../js/lib/toastr/toastr.min.js"></script>
+    <script src="../js/lib/toastr/toastr.init.js"></script>
     <!-- nano scroller -->
     <script src="../js/lib/menubar/sidebar.js"></script>
     <script src="../js/lib/preloader/pace.min.js"></script>
@@ -687,7 +670,9 @@
     <script src="../js/lib/owl-carousel/owl.carousel.min.js"></script>
     <script src="../js/lib/owl-carousel/owl.carousel-init.js"></script>
     <!-- scripit init-->
+   
     <script src="../js/dashboard2.js"></script>
+    <script src="../js/user_js/company.js"></script>
 </body>
 
 </html>

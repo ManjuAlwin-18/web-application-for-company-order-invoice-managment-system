@@ -28,5 +28,6 @@
     <link href="../css/lib/menubar/sidebar.css" rel="stylesheet">
     <link href="../css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="../css/lib/helper.css" rel="stylesheet">
+    <link href="../css/lib/toastr/toastr.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 </head>

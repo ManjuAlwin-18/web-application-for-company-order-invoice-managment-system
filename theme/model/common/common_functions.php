@@ -1,7 +1,7 @@
 <?php //session_start();?>
 <?php 
 
-include "../db_connection/connection.php" ;
+include ("../model/db_connection/connection.php") ;
 //include('../../view/template/includes/en_de_header.inc');
 
 
