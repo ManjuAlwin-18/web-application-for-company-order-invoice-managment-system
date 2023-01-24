@@ -21,44 +21,121 @@
                 <!-- /# row -->
                 <section id="main-content">
                     
-                <div class="row">
-                        <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6">
                             <div class="card">
-                                <div class="card-title">
-                                    <h4>Basic Elements</h4>
-                                    
-                                </div>
+                              
                                 <div class="card-body">
                                     <div class="basic-elements">
                                         <form>
                                             <div class="row">
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-12">
                                                     <div class="form-group">
-                                                        <label>Category Type </label>
-                                                        <input type="text" class="form-control" placeholder="Enter Category type ">
+                                                        <label>Company Name</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Company Name ">
                                                     </div>
                                                     
 
                                                 </div>
-                                                <div class="col-lg-6">
-                                                <div class="form-group">
-                                                        <label style="height:18px;"></label><br>
-                                                        <button type="button" style="width:200px;" class="btn btn-success m-b-10 m-l-5">Submit</button>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Phone Number</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Phone Number ">
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Email ID</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Email ID ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Address</label>
+                                                        <textarea class="form-control" rows="3" placeholder="Please Enter Your Address"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Fax</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Fax ">
+                                                    </div>
+                                                    
+
+                                                </div>
+                                                
+                                            </div>
+
+
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- /# column -->
-                     
+                        <div class="col-lg-6">
+                            <div class="card">
+                              
+                                <div class="card-body">
+                                    <div class="basic-elements">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Invoice No:</label>
+                                                        <input type="text" class="form-control" placeholder="Quotation No: ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">        
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Project</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Project ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Quotation No:</label>
+                                                        <input type="text" class="form-control" placeholder="Quotation Number ">
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>Date</label>
+                                                        <input type="date" class="form-control" placeholder="Please Enter Email ID ">
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                             
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- /# column -->
                     </div>
                         <!-- /# column -->
-                       
-                    </div>
+                 
+                    
                     <!--Navigation Includes Starts ---------------------------------------------------------->
                   
                     <!--Navigation Includes Ends ---------------------------------------------------------->
@@ -66,7 +143,7 @@
 
                 <section id="Table-content">
                     
-                <div class="row">
+                    <div class="row">
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-title">
@@ -563,6 +640,71 @@
                         </div>
                         <!-- /# column -->
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                              
+                                <div class="card-body">
+                                    <div class="basic-elements">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                        <label>Received</label>
+                                                        <textarea class="form-control" rows="3" placeholder="Description"></textarea>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                            
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                        <label>Retention</label>
+                                                        <input type="text" class="form-control" placeholder="%">
+                                                    </div>
+                                                </div>
+                                   
+                                                <div class="col-lg-3">
+                                                    <div class="form-group">
+                                                        <label>Previous Bill Amount</label>
+                                                        <input type="text" class="form-control" placeholder="Amount ">
+                                                    </div>
+                                                </div>
+                                            
+                                                
+                                                <div class="col-lg-3">
+                                                    <div class="form-group">
+                                                        <label>Balance in Due</label>
+                                                        <input type="text" class="form-control" placeholder="Due ">
+                                                    </div>
+                                                </div>
+                                            
+                                                
+                                            </div>
+                                          
+                                            <div class="row">
+                                                <div class="col-lg-10">
+                                                   
+                                                </div>
+                                               
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                    <label style="height:18px;"></label><br>
+                                                        <button type="button" style="width:150px;" class="btn btn-success m-b-10 m-l-5">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /# column -->
+                      
+                        <!-- /# column -->
+                    </div>  
                     <!--Navigation Includes Starts ---------------------------------------------------------->
                     <?PHP include('../includes/footer.php');?>
                     <!--Navigation Includes Ends ---------------------------------------------------------->
