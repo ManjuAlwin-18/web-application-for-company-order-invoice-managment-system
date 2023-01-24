@@ -32,21 +32,123 @@
                                     <div class="basic-elements">
                                         <form>
                                             <div class="row">
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-2">
                                                     <div class="form-group">
-                                                        <label>Category Type </label>
-                                                        <input type="text" class="form-control" placeholder="Enter Category type ">
+                                                        <label>Product Code</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Company Name ">
                                                     </div>
                                                     
 
                                                 </div>
                                                 <div class="col-lg-6">
-                                                <div class="form-group">
-                                                        <label style="height:18px;"></label><br>
+                                                    <div class="form-group">
+                                                        <label>Product Name</label>
+                                                        <input type="text" class="form-control" placeholder="Please Enter Phone Number ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                    <label>Category</label>
+                                                        <select class="form-control">
+                                                            <option>Please Select Category</option>
+															<option>New Zealand</option>
+															<option>India</option>
+															<option>China</option>
+															<option>Japan</option>
+															<option>US</option>
+                                                            <option>UK</option>
+                                                            <option>Germany</option>
+                                                            <option>Spain</option>
+                                                            <option>South Koreia</option>
+                                                            <option>North Koreia</option>
+                                                            <option>Autralia</option>
+                                                            <option>Africa</option>
+                                                            <option>Finland</option>
+                                                            <option>Poland</option>
+                                                            
+														</select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="form-group">
+                                                    <label>Item</label>
+                                                        <select class="form-control">
+                                                            <option>Please Select Country</option>
+															<option>New Zealand</option>
+															<option>India</option>
+															<option>China</option>
+															<option>Japan</option>
+															<option>US</option>
+                                                            <option>UK</option>
+                                                            <option>Germany</option>
+                                                            <option>Spain</option>
+                                                            <option>South Koreia</option>
+                                                            <option>North Koreia</option>
+                                                            <option>Autralia</option>
+                                                            <option>Africa</option>
+                                                            <option>Finland</option>
+                                                            <option>Poland</option>
+                                                            
+														</select>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                                <div class="col-lg-1">
+                                                    <div class="form-group">
+                                                        <label>Quantity</label>
+                                                        <input type="text" class="form-control" placeholder="Quantity ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                        <label>Length</label>
+                                                        <input type="text" class="form-control" placeholder="Length ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                        <label>Width</label>
+                                                        <input type="text" class="form-control" placeholder="Width ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                        <label>Thickness</label>
+                                                        <input type="text" class="form-control" placeholder="Thickness ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <div class="form-group">
+                                                        <label>Weight</label>
+                                                        <input type="text" class="form-control" placeholder="Weight ">
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-lg-8">
+                                                   
+                                                    
+
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                    <label style="height:18px;"></label><br>
                                                         <button type="button" style="width:200px;" class="btn btn-success m-b-10 m-l-5">Submit</button>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </form>
                                     </div>
                                 </div>
