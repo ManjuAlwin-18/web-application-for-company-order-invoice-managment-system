@@ -12,21 +12,20 @@
     
     <!--Header Includes Starts--------------------------------------------------------------------------------->
     <?PHP include('../includes/header.php');?>
-    <!--Navigation Includes Ends-------------------------------------------------------------------------------> 
-
+    <!--Header Includes Ends-------------------------------------------------------------------------------> 
+    <!--Content starts----------------------------------------------------------------------------------------->
     <div class="content-wrap">
         <div class="main">
             <div class="container-fluid">
                 
                 <!-- /# row -->
-                <section id="main-content">
+                 <section id="main-content">
                     
-                <div class="row">
+                    <div class="row">
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-title">
                                     <h4>Basic Elements</h4>
-                                    
                                 </div>
                                 <div class="card-body">
                                     <div class="basic-elements">
@@ -37,11 +36,9 @@
                                                         <label>Category Type </label>
                                                         <input type="text" class="form-control" placeholder="Enter Category type ">
                                                     </div>
-                                                    
-
                                                 </div>
                                                 <div class="col-lg-6">
-                                                <div class="form-group">
+                                                    <div class="form-group">
                                                         <label style="height:18px;"></label><br>
                                                         <button type="button" style="width:200px;" class="btn btn-success m-b-10 m-l-5">Submit</button>
                                                     </div>
@@ -52,21 +49,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /# column -->
-                     
-                        <!-- /# column -->
-                    </div>
-                        <!-- /# column -->
-                       
-                    </div>
-                    <!--Navigation Includes Starts ---------------------------------------------------------->
-                  
-                    <!--Navigation Includes Ends ---------------------------------------------------------->
+                    </div> 
                 </section>
-
-                <section id="Table-content">
-                    
-                <div class="row">
+                <section id="Table-content">  
+                    <div class="row">
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-title">
@@ -563,9 +549,9 @@
                         </div>
                         <!-- /# column -->
                     </div>
-                    <!--Navigation Includes Starts ---------------------------------------------------------->
+                    <!--Footer Includes Starts ---------------------------------------------------------->
                     <?PHP include('../includes/footer.php');?>
-                    <!--Navigation Includes Ends ---------------------------------------------------------->
+                    <!--Footer Includes Ends ---------------------------------------------------------->
                 </section> 
    
             </div>

@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  
+    
+    var v_tbl_company_list = $('#tbl_list_comapny').DataTable({});
+    load_data_to_grid_company_list();
 
  	// $("#select_player").change(function(e){
  	    
@@ -40,7 +42,7 @@ $(document).ready(function(){
                                     {
                                       //$('#toastr-success-top-right').toast('show');
                                         alert("success")
-                                      //load_data_to_grid_registered_association_list_dis();
+                                        load_data_to_grid_company_list();
                                         clear_text_company();
                                     }
                                     
@@ -61,6 +63,71 @@ $(document).ready(function(){
             $("#sel_country option:selected").val(''); 
 
         } 
+    
+    function load_data_to_grid_company_list()
+        {
+           
+               v_tbl_company_list.destroy();
+                    
+               v_tbl_company_list = $('#tbl_list_comapny').DataTable( {
+               
+                    "ajax": {
+                        'type': 'POST',
+                        'url': '../controller/company_controller.php',
+                        'data': {
+                           action: 'list_company'
+                        }
+                        
+                    },
+                    
+                    
+                   "order": [[ 0, "desc" ]],
+                  
+                   "Paginate": true,
+                   "bLengthChange": false,
+                   "bFilter": false,
+                   "bInfo": false,
+                   "autoWidth": false,
+                   "bRetrieve":true,
+               
+                   "columns": [
+                        
+                        { "data": null,className: "text-center"},
+                        { "data": "company_name" },
+                        { "data": "phone_number" },
+                        { "data": "email"}, 
+                        { "data": "address"},
+                        { "data": "fax"}, 
+                        { "data": "vat" },
+                        { "data": "country"}
+                    ],
+                    pageLength: 5,
+                    searching: true,
+                    responsive: true,
+                    
+                    "aoColumnDefs": [
+                       { "bSortable": false, "aTargets": [  0] }, 
+                       
+                   ],
+                   
+                   
+                    "initComplete": function( settings, json ) {
+                           
+                      
+    
+                     },
+                       "fnRowCallback": function (nRow, aData, iDisplayIndex) {
+                        $("td:eq(0)", nRow).html(iDisplayIndex + 1);
+                        return nRow;
+                     },
+                     "drawCallback": function () {
+                          
+                       }
+                   
+            });  
+       
+        }
+
       
 
 });
